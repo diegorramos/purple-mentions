@@ -4,7 +4,7 @@ import spock.lang.Specification
 
 class ApplicationTest extends Specification {
 
-	void setup() {
+    void setup() {
 
-	}
+    }
 }
