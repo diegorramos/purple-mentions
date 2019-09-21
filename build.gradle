@@ -82,17 +82,6 @@ task copyToLib(type: Copy) {
 
 stage.dependsOn(copyToLib)
 
-task downloadNewrelic(type: Download) {
-    mkdir 'newrelic'
-    src 'https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip'
-    dest file('newrelic')
-}
-
-task unzipNewrelic(type: Copy) {
-    from zipTree(file('newrelic/newrelic-java.zip'))
-    into rootDir
-}
-
 build.mustRunAfter clean
 run.classpath += configurations.developmentOnly
 run.jvmArgs('-noverify', '-XX:TieredStopAtLevel=1', '-Dcom.sun.management.jmxremote')
