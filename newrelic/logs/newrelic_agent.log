@@ -1,0 +1,8 @@
+Sep 23, 2019 18:16:50 -0300 [23608 1] com.newrelic INFO: Writing to New Relic log file: /Users/diegoramos/Developer/mentions/newrelic/logs/newrelic_agent.log
+Sep 23, 2019 18:16:50 -0300 [23608 1] com.newrelic INFO: JRE vendor Azul Systems, Inc. version 1.8.0_202
+Sep 23, 2019 18:16:50 -0300 [23608 1] com.newrelic INFO: JVM vendor Azul Systems, Inc. OpenJDK 64-Bit Server VM version 25.202-b05
+Sep 23, 2019 18:16:50 -0300 [23608 1] com.newrelic INFO: OS Mac OS X version 10.14.6 arch x86_64
+Sep 23, 2019 18:16:55 -0300 [23608 1] com.newrelic INFO: Agent Host: MacBook-Pro-de-Beleza.local IP: 192.168.0.5
+Sep 23, 2019 18:16:55 -0300 [23608 1] com.newrelic INFO: New Relic Agent v5.6.0 is initializing...
+Sep 23, 2019 18:16:59 -0300 [23608 6] com.newrelic.agent.Agent INFO: JVM is shutting down
+Sep 23, 2019 18:16:59 -0300 [23608 6] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
