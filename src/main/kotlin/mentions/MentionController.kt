@@ -13,9 +13,9 @@ class MentionController {
     private val log = LoggerFactory.getLogger(MentionController::class.java)
 
     @Get("/")
-    fun get(): Maybe<String> {
+    fun get(): Maybe<Int> {
         log.info("get mentions")
-        return Maybe.just("success")
+        return Maybe.just(1158201444)
     }
 
     @Post("/")
