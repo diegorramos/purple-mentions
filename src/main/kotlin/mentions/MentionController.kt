@@ -1,9 +1,6 @@
 package mentions
 
-import io.micronaut.http.annotation.Body
-import io.micronaut.http.annotation.Controller
-import io.micronaut.http.annotation.Get
-import io.micronaut.http.annotation.Post
+import io.micronaut.http.annotation.*
 import io.reactivex.Maybe
 import org.slf4j.LoggerFactory
 
@@ -13,9 +10,9 @@ class MentionController {
     private val log = LoggerFactory.getLogger(MentionController::class.java)
 
     @Get("/")
-    fun get(): Maybe<Int> {
+    fun get(@QueryValue("hub.challenge") challenge: String): Maybe<Int> {
         log.info("get mentions")
-        return Maybe.just(1158201444)
+        return Maybe.just(challenge.toInt())
     }
 
     @Post("/")

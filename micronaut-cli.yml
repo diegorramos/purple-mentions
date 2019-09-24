@@ -1,5 +1,5 @@
 profile: service
 defaultPackage: mentions
 ---
-testFramework: kotlintest
+testFramework: spock
 sourceLanguage: kotlin
